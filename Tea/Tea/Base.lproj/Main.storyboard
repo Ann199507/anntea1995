@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bVv-Kz-Lag">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tea" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="app_button_bg-1" translatesAutoresizingMaskIntoConstraints="NO" id="EWO-K7-QOj">
+                                <rect key="frame" x="0.0" y="103" width="375" height="641"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnu-CH-4cd">
+                                <rect key="frame" x="115" y="501" width="145" height="133"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="133" id="ENm-yF-dcg"/>
+                                    <constraint firstAttribute="width" secondItem="qnu-CH-4cd" secondAttribute="height" multiplier="145:133" id="aFM-dk-wpR"/>
+                                    <constraint firstAttribute="width" constant="145" id="hYi-Jx-Hxh"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="app_button-button-1"/>
+                                <connections>
+                                    <segue destination="Vrq-Y5-8HN" kind="push" id="VNc-GD-Dl8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qnu-CH-4cd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="413" id="4ff-sV-kia"/>
+                            <constraint firstItem="EWO-K7-QOj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4lz-Fn-5a6"/>
+                            <constraint firstItem="EWO-K7-QOj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ah6-L3-ykQ"/>
+                            <constraint firstItem="qnu-CH-4cd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="GaY-L9-1aP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qnu-CH-4cd" secondAttribute="trailing" constant="115" id="MJt-ez-uda"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qnu-CH-4cd" secondAttribute="trailing" constant="115" id="NKB-9N-kXF"/>
+                            <constraint firstItem="EWO-K7-QOj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="P3M-Ta-ceY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qnu-CH-4cd" secondAttribute="bottom" constant="95" id="PNt-QG-Bll"/>
+                            <constraint firstItem="EWO-K7-QOj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XF1-7O-nSy"/>
+                            <constraint firstItem="qnu-CH-4cd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="ekZ-ZC-gKA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qnu-CH-4cd" secondAttribute="bottom" constant="95" id="j7Q-uy-7mU"/>
+                            <constraint firstItem="qnu-CH-4cd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="413" id="qoa-hE-3hE"/>
+                            <constraint firstItem="EWO-K7-QOj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yNt-Up-wdl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="R7b-X9-qcU"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2868" y="25.862068965517242"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fOD-Xd-Ioh">
+            <objects>
+                <viewController id="Vrq-Y5-8HN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ywv-Y7-XaO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_button_2bg-01 - Copy" translatesAutoresizingMaskIntoConstraints="NO" id="M9t-Vv-F66">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGw-vm-XRW">
+                                <rect key="frame" x="36" y="174" width="303" height="555"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUl-qO-ldJ">
+                                        <rect key="frame" x="34.000000000000014" y="267" width="244.33333333333337" height="138"/>
+                                        <string key="text">THE STORY OF TEA begins with a journey along the tea trail, from the lush forests of China, where tea cultivation first flourished, to the Buddhist temples of Japan, to the vast tea gardens of India, and beyond. </string>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Best-Teas-for-Your-Health-RM-1440x810" translatesAutoresizingMaskIntoConstraints="NO" id="iho-IB-WrY">
+                                        <rect key="frame" x="32" y="51" width="239" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="iho-IB-WrY" secondAttribute="height" multiplier="239:128" id="Ke8-1r-ias"/>
+                                            <constraint firstAttribute="width" constant="239" id="QFT-oQ-wIN"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.38619608274647887" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="iho-IB-WrY" firstAttribute="top" secondItem="cGw-vm-XRW" secondAttribute="top" constant="51" id="7d1-si-FI7"/>
+                                    <constraint firstItem="eUl-qO-ldJ" firstAttribute="leading" secondItem="cGw-vm-XRW" secondAttribute="leading" constant="34" id="JES-6d-auy"/>
+                                    <constraint firstAttribute="trailing" secondItem="iho-IB-WrY" secondAttribute="trailing" constant="32" id="LcA-7m-wTc"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eUl-qO-ldJ" secondAttribute="trailing" symbolic="YES" id="YnR-gJ-tcH"/>
+                                    <constraint firstAttribute="bottom" secondItem="eUl-qO-ldJ" secondAttribute="bottom" constant="150" id="j0G-1t-sQK"/>
+                                    <constraint firstItem="eUl-qO-ldJ" firstAttribute="top" secondItem="iho-IB-WrY" secondAttribute="bottom" constant="88" id="lza-sk-hhc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="M9t-Vv-F66" firstAttribute="leading" secondItem="gFL-SY-Ocn" secondAttribute="leading" id="5QZ-Rp-5UK"/>
+                            <constraint firstItem="cGw-vm-XRW" firstAttribute="leading" secondItem="gFL-SY-Ocn" secondAttribute="leading" constant="36" id="5pA-EC-ZAc"/>
+                            <constraint firstItem="cGw-vm-XRW" firstAttribute="top" secondItem="gFL-SY-Ocn" secondAttribute="top" id="A6Z-OW-CTG"/>
+                            <constraint firstItem="M9t-Vv-F66" firstAttribute="top" secondItem="gFL-SY-Ocn" secondAttribute="top" id="BSc-SU-3PD"/>
+                            <constraint firstItem="gFL-SY-Ocn" firstAttribute="trailing" secondItem="M9t-Vv-F66" secondAttribute="trailing" id="CPU-dc-Sz8"/>
+                            <constraint firstItem="M9t-Vv-F66" firstAttribute="top" secondItem="gFL-SY-Ocn" secondAttribute="top" id="OjV-r7-0MX"/>
+                            <constraint firstItem="gFL-SY-Ocn" firstAttribute="trailing" secondItem="cGw-vm-XRW" secondAttribute="trailing" constant="36" id="QA5-ce-RLO"/>
+                            <constraint firstItem="M9t-Vv-F66" firstAttribute="leading" secondItem="gFL-SY-Ocn" secondAttribute="leading" id="YpR-Z7-l73"/>
+                            <constraint firstItem="gFL-SY-Ocn" firstAttribute="bottom" secondItem="cGw-vm-XRW" secondAttribute="bottom" id="Z6C-YE-fAg"/>
+                            <constraint firstItem="cGw-vm-XRW" firstAttribute="bottom" secondItem="gFL-SY-Ocn" secondAttribute="bottom" id="dfQ-0r-4Nw"/>
+                            <constraint firstItem="cGw-vm-XRW" firstAttribute="top" secondItem="gFL-SY-Ocn" secondAttribute="top" constant="80" id="jV5-l4-yf4"/>
+                            <constraint firstItem="gFL-SY-Ocn" firstAttribute="bottom" secondItem="M9t-Vv-F66" secondAttribute="bottom" id="l2b-bg-gsE"/>
+                            <constraint firstItem="M9t-Vv-F66" firstAttribute="bottom" secondItem="gFL-SY-Ocn" secondAttribute="bottom" id="lMY-aJ-Kfz"/>
+                            <constraint firstItem="cGw-vm-XRW" firstAttribute="top" secondItem="gFL-SY-Ocn" secondAttribute="top" constant="86" id="oOg-m8-mEp"/>
+                            <constraint firstItem="gFL-SY-Ocn" firstAttribute="bottom" secondItem="cGw-vm-XRW" secondAttribute="bottom" id="qWm-XY-EUU"/>
+                            <constraint firstItem="M9t-Vv-F66" firstAttribute="trailing" secondItem="gFL-SY-Ocn" secondAttribute="trailing" id="zEk-Kv-t7e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gFL-SY-Ocn"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ref-RG-DAe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W65-wu-tbO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3544.8000000000002" y="23.645320197044335"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Z7M-ar-dE4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bVv-Kz-Lag" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Op6-f9-DZt">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yG6-IL-G5k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akJ-Lb-taZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1925.5999999999999" y="25.862068965517242"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Best-Teas-for-Your-Health-RM-1440x810" width="722" height="406"/>
+        <image name="app_button-button-1" width="277" height="268"/>
+        <image name="app_button_2bg-01 - Copy" width="1242" height="2208"/>
+        <image name="app_button_bg-1" width="1242" height="2208"/>
+    </resources>
+</document>
